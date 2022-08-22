@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+}
+
+
+#app{
+    height: 75vh;
+    width: 22%;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5em;    
+    display: flex;
+    flex-direction: column;
+     font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./image/Moon.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    }
+
+.search{
+text-align: center;
+margin: auto;
+padding-top: 1em;
+border-radius: 5px;
+width: 50%;
+display: flex;
+border: none;
+justify-content: center;
+}
+#searchInput{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+width: 10em;
+
+}
+
+
+
+button{
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Montserrat' sans-serif;   
+    cursor: pointer;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,217,232,0.15449929971988796) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+.ddl{
+    /* margin-top: 7em; */
+    text-align: center;
+    color: antiquewhite;
+}
+
+.temp{
+
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    color: antiquewhite;
+
+
+}
